@@ -133,6 +133,8 @@ for p in ax.patches:
 plt.tight_layout()
 plt.show()
 ```
+![image alt](https://github.com/SirSahilSingh/telecomm-customer-churn-analysis/blob/450c4dc44d83ea807a4dd3073784dc7bcf129d21/image_telecomm/chart2.png)
+---
 ![image alt](https://github.com/SirSahilSingh/telecomm-churn-prediction-and-analysis/blob/9015d2d853a230884b9b551daafa49b6ddd22ff0/image_telecomm/chart.png)
 
 ### 5. Churn Behavior Insights
