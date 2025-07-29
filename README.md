@@ -1,10 +1,11 @@
 # Telecom Customer Churn Analysis
-
+![image alt](https://github.com/SirSahilSingh/telecomm-churn-prediction-and-analysis/blob/9015d2d853a230884b9b551daafa49b6ddd22ff0/image_telecomm/telecomm_banner.png)
+--
 **Objective**:   
 A comprehensive data-driven analysis to understand and reduce customer churn within a telecom business context.
 
 This project involves exploratory data analysis (EDA) on a telecom customer dataset to uncover trends, identify key churn indicators, and deliver actionable insights. The analysis aims to support business stakeholders in implementing effective customer retention strategies.
-![image alt](https://github.com/SirSahilSingh/telecomm-churn-prediction-and-analysis/blob/9015d2d853a230884b9b551daafa49b6ddd22ff0/image_telecomm/telecomm_banner.png)
+
 
 ## 📑 Table of Contents
 
@@ -16,13 +17,13 @@ This project involves exploratory data analysis (EDA) on a telecom customer data
 - [Key Insights](#key-insights)
 - [License](#license)
 - [Contact](#contact)
-
+---
 ## 🧩 Problem Statement
 
 Customer churn — the rate at which customers discontinue their service — is a critical challenge in the telecom industry. High churn rates directly impact recurring revenue and customer acquisition costs. This project aims to explore patterns in customer behavior that lead to churn and provide insights to proactively identify customers at risk.
 
 By understanding the drivers behind churn, telecom providers can create data-informed retention strategies, reduce customer turnover, and improve lifetime value (LTV).
-
+---
 ## 📦 Dataset Description
 
 The analysis is based on a simulated telecom dataset containing approximately **240,000 customer records**. Each record includes:
@@ -34,7 +35,7 @@ The analysis is based on a simulated telecom dataset containing approximately **
 - **Target Variable**: `churn` (1 = customer churned, 0 = retained)
 
 The dataset was imported from a file named `updated_telecom_churn.csv`.
-
+---
 ## 🧰 Tools & Technologies
 
 The following tools and technologies were used in this project:
@@ -54,7 +55,7 @@ The following tools and technologies were used in this project:
 - Visual Studio Code (optional)
 
 > All dependencies can be installed via `pip install -r requirements.txt` (file included in future steps).
-
+---
 ## 🔄 Project Workflow (with Sample Code)
 
 The analysis follows a structured and modular approach, organized as follows:
@@ -144,6 +145,7 @@ plt.show()
 churn_rate = df['churn'].value_counts(normalize=True) * 100
 print(churn_rate)
 ```
+---
 ## 📈 Key Insights
 
 ### Exploratory Data Analysis (EDA) – Key Insights
@@ -211,7 +213,7 @@ Based on the detailed exploratory data analysis, the following key insights have
 > Instead, the most significant factor influencing churn is the **telecom partner itself.** The substantial differences in churn rates among providers (BSNL and Vodafone having significantly higher churn) strongly suggest that **service quality, network performance, customer support, pricing structures, or specific value propositions offered by different partners** are the core drivers of customer dissatisfaction and eventual churn.
 >
 > Future efforts for customer retention should primarily focus on in-depth analysis of the service delivery and customer experience aspects of the high-churn telecom partners.
-
+---
 ## 📬 Contact
 
 For questions, feedback, or collaboration opportunities:
