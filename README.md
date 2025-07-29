@@ -22,7 +22,7 @@ This project involves exploratory data analysis (EDA) on a telecom customer data
 
 Customer churn — the rate at which customers discontinue their service — is a critical challenge in the telecom industry. High churn rates directly impact recurring revenue and customer acquisition costs. This project aims to explore patterns in customer behavior that lead to churn and provide insights to proactively identify customers at risk.
 
-By understanding the drivers behind churn, telecom providers can create data-informed retention strategies, reduce customer turnover, and improve lifetime value (LTV).
+By understanding the drivers behind churn, telecom providers can create data-informed retention strategies, reduce customer turnover, and improve lifetime value (LTV).  
 ---
 ## 📦 Dataset Description
 
